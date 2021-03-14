@@ -1,6 +1,6 @@
 ![Image alt](https://github.com/echechulina/chechulina_e_tyshchuk_v_roku_client/blob/main/public/images/roku.png)
 
-# Roku Flashback Streaming App
+# Roku Flashback Streaming App Client Repo
 
 # Description
 We present to your attention the Roku Flashback app. This application will give you access to the fascinating world of cinematography and animation. Access to content is carried out in accordance with two types of account restrictions: without restrictions for adult users, and with restrictions for children.
