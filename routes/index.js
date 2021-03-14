@@ -13,7 +13,13 @@ router.use('/api', createProxyMiddleware({
 }))
 
 router.get('/', (req, res) => {
-    res.send('hit the main route');
+    res.render('index', {message: "hello from handlebars!"})
+
+})
+
+router.use((req, res) => {
+    res.status(404);
+    res.render("error", { layout: "errorLayout.hbs", errormessage:`you've lost your way a wee bit! "${req.url}" doesn't exisit!`});
 })
 
 module.exports = router;
