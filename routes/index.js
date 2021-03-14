@@ -17,8 +17,9 @@ router.get('/', (req, res) => {
 
 })
 
-// router.get('/portfolio', (req, res) => {
-//     res.render('artwork', { portmessage: "You're omn the portfolio page"});
-// })
+router.use((req, res) => {
+    res.status(404);
+    res.render("error", { layout: "errorLayout.hbs", errormessage:`you've lost your way a wee bit! "${req.url}" doesn't exisit!`});
+})
 
 module.exports = router;
