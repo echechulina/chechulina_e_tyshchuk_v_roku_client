@@ -13,9 +13,10 @@ router.use('/api', createProxyMiddleware({
 }))
 
 router.get('/', (req, res) => {
-    res.render('index', {message: "hello from handlebars!"})
+    res.render('index', { layout: 'layout.hbs' })
 
 })
+
 
 router.use((req, res) => {
     res.status(404);
