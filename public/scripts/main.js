@@ -9,10 +9,6 @@ import Protected from './components/TheProtectedComponent.js'
 (() => {
     console.log('fired!');
 
-   
-    
-
-    // add our Vue Router here
     const router = new VueRouter({
         routes: [
             { path: "/", component: HomePage },
