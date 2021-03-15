@@ -1,9 +1,48 @@
+
+        <section class="banner">
+            <div id="container">
+                <header class="mainHead sidebar">
+                    <div id="logo">
+                       
+                        <img class="logo2" src="images/main_logo.svg"  alt="logo">
+                   
+                    </div>
+                   
+                </header>
+                
+                <div class="burgerMenu">
+                    
+                    <nav class="navbar">
+                        <a href="index.html">
+                            <img class="logo3" src="images/main_logo.svg"  alt="user">
+                        </a>
+                        <div class="hamburger-menu">
+                            <div class="line line-1"></div>
+                            <div class="line line-2"></div>
+                            <div class="line line-3"></div>
+                        </div>
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">Home</a>
+                                <a href="work.html" class="nav-link">Movies</a>
+                                <a href="work.html" class="nav-link">TV</a>
+                                <a href="work.html" class="nav-link">Music</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+             </div>
+
+
+
 <section class="home-hero">
     <!-- render the dynamic data here -->
     <h1>{{ message }}</h1>
 
     <!-- render a thumbnail per movie -->
-    <moviethumb v-for="item in allMovies" :movie="item" :key="item.movies_id"></moviethumb>
 
-{{!-- <router-view></router-view> --}}
+    {{!-- <moviethumb v-for="item in allMovies" :movie="item" :key="item.movies_id"></moviethumb> --}}
 </section>
+
+

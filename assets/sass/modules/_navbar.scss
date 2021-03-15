@@ -1,0 +1,41 @@
+.burgerMenu{
+.navbar{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(30, 30, 30, 0.6);
+    position: fixed;
+    top: 0;
+    right: -800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 9% 10% 20% 60%;
+    
+    .logo3{
+        opacity:0;
+    }
+    .nav-list{
+        text-align:right;
+    
+        .nav-item{
+            list-style: none ;
+            margin: 38px;
+
+            .nav-link{
+                text-decoration: none;
+                font-size: 20px;
+                color: whitesmoke;
+                letter-spacing: 1px;
+                position: relative;
+                overflow: hidden;
+                transition: all .2s;
+                padding-right: 60px;
+                &:hover{
+                    color:#ffb400;
+                }
+               
+            }
+        }
+    }
+  }
+}
