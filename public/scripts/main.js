@@ -1,9 +1,8 @@
-import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.esm.browser.js'
-import TheMovieThumb from './components/TheMovieThumbnailComponent.js'
-import HomePage from './components/TheHomePageComponent.js'
+import TheMovieThumb from './components/TheMovieThumbnailComponent.js';
+import HomePage from './components/TheHomePageComponent.js';
 
-import LoginPage from './components/TheLoginPageComponent.js'
-import Protected from './components/TheProtectedComponent.js'
+import LoginPage from './components/TheLoginPageComponent.js';
+import Protected from './components/TheProtectedComponent.js';
 
 
 (() => {
@@ -34,23 +33,30 @@ import Protected from './components/TheProtectedComponent.js'
         data: {
             allMovies: [],
             message: "Hello!",
-            authenticated: false,
+            authenticated: true,
             user: ""
         },
 
         created: function() {
-            if (window.localStorage.getItem("creds")) {
-                this.authenticated = true;
-                this.user = JSON.parse(window.localStorage.getItem("creds")).name;
-
-                fetch('api/movies')
+            fetch('/api/movies')
                     .then(res => res.json())
                     .then(data => {
                         console.table(data);
                         this.allMovies = data;
                     })
                     .catch(err => console.error(err));
-            }
+            // if (window.localStorage.getItem("creds")) {
+            //     this.authenticated = true;
+            //     this.user = JSON.parse(window.localStorage.getItem("creds")).name;
+
+            //     fetch('/api/movies')
+            //         .then(res => res.json())
+            //         .then(data => {
+            //             console.table(data);
+            //             this.allMovies = data;
+            //         })
+            //         .catch(err => console.error(err));
+            // }
         },
 
         methods: {
