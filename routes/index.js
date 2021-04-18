@@ -21,6 +21,7 @@ router.use('/ums', createProxyMiddleware({
 }))
 
 router.get('/', (req, res) => {
+
     res.render('index', { layout: 'layout.hbs' })
 
 })

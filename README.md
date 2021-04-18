@@ -1,6 +1,6 @@
-![Image alt](https://github.com/echechulina/chechulina_e_tyshchuk_v_roku_client/tree/main/public/images/roku.png)
+![Image alt](https://github.com/echechulina/chechulina_e_tyshchuk_v_roku_client/blob/main/public/images/roku.png)
 
-# Roku Flashback Streaming App
+# Roku Flashback Streaming App Client Repo
 
 # Description
 We present to your attention the Roku Flashback app. This application will give you access to the fascinating world of cinematography and animation. Access to content is carried out in accordance with two types of account restrictions: without restrictions for adult users, and with restrictions for children.
@@ -9,14 +9,15 @@ We present to your attention the Roku Flashback app. This application will give 
 Roku Flashback meets all modern requirements for working on various devices. Laptop, tablet, phone, computer screen - the application is adapted for use on all devices. The app has a login system that gives access to an account with content restrictions based on the age of the user. The "parent" account has a function to control the selection of content in the child's account. The archive of films and cartoons is stored in our database.
 
 # Project location 
-[Client repo](https://github.com/echechulina/chechulina_e_tyshchuk_v_roku_client).
+[Client repo](https://github.com/echechulina/chechulina_e_tyshchuk_v_roku_client)
+
 [Server repo](https://github.com/echechulina/chechulina_e_tyshchuk_v_Roku_Flashback)
 
 # Prototype
-[Prototype](https://xd.adobe.com/view/7dbce0d4-f036-4b66-bf62-1c81fb16ffed-28ef/).
+[Prototype](https://xd.adobe.com/view/7dbce0d4-f036-4b66-bf62-1c81fb16ffed-28ef/)
 
 # Dev documents
-[Road Map ](https://docs.google.com/document/d/1VX1qlcQSmtWwMjtDnRWj7ss3-wp-6SQd7j62ZhijUZM/edit?usp=sharing) here.
+[Road Map ](https://docs.google.com/document/d/1VX1qlcQSmtWwMjtDnRWj7ss3-wp-6SQd7j62ZhijUZM/edit?usp=sharing) here
 
 # Built with
 * HTML5
